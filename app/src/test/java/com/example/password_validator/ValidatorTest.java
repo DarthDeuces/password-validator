@@ -14,10 +14,11 @@ public class ValidatorTest {
     public static void init()
     {
         validator = new Validator();
+        validator.setPass(pw);
     }
     @Test
     public void count_isCorrect(){
 
-        assertEquals(2, validate(pw));
+        assertEquals(2, validator.validate());
     }
 }
