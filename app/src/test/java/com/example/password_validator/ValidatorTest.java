@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class ValidatorTest {
 
-    static String pw = "darthvader";
+    static String pw = "He!!0mate";
 
     static Validator validator;
 
@@ -19,6 +19,6 @@ public class ValidatorTest {
     @Test
     public void count_isCorrect(){
 
-        assertEquals(2, validator.validate());
+        assertEquals(5, validator.validate());
     }
 }
